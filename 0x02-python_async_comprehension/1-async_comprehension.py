@@ -3,9 +3,10 @@
 This module define an asynchronous function
 """
 import asyncio
+from typing import List
 
 
-async def async_comprehension():
+async def async_comprehension() -> List[float]:
     """
     async comprehension list
     Return a random float

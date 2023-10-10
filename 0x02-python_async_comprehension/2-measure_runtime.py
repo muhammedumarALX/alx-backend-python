@@ -6,7 +6,7 @@ import asyncio
 import time
 
 
-async def measure_runtime():
+async def measure_runtime() -> float:
     """
     function that measures runtime and returns a float
     """
